@@ -1,4 +1,3 @@
-
 # Dependencies
 node_modules/
 __pycache__/
@@ -23,15 +22,26 @@ Thumbs.db
 secrets.yaml
 config/secrets.yaml
 *.secrets.yaml
+~/.repoforge/
+
+# Personal content - 个人内容，不要提交
+backup/
+tasks/
+logs/
+handover/
+docs/
+portfolio/
+VIRTURA-Newsroom/
+*.pyc
+__pycache__/
 
 # Build
 dist/
 build/
 
-# Logs
-*.log
-# logs/  - 不忽略，用于协作日志
-
 # Temporary files
 *.tmp
 *.temp
+
+# User-specific project config
+config/projects.yaml

@@ -1,0 +1,27 @@
+# 示例项目配置文件
+# 复制此文件为 projects.yaml 并根据你的项目进行修改
+# 注意：projects.yaml 已在 .gitignore 中，不会被提交到 Git
+
+projects:
+  # 示例项目 1
+  - name: 我的第一个项目
+    english_name: MyFirstProject
+    role: 项目角色描述
+    description: 这是我的第一个项目的详细描述
+    folder_name: MyFirstProject
+    repo_name: MyFirstProject
+    homepage: https://yourusername.github.io/MyFirstProject
+    tags: ["tag1", "tag2", "open-source"]
+  
+  # 示例项目 2
+  - name: 我的第二个项目
+    english_name: MySecondProject
+    role: 另一个项目角色
+    description: 这是我的第二个项目的详细描述
+    folder_name: MySecondProject
+    repo_name: MySecondProject
+    homepage: https://yourusername.github.io/MySecondProject
+    tags: ["tag3", "tag4", "open-source"]
+
+# 待归档的冗余仓库，后续可自行添加仓库名
+archive_repos: []
