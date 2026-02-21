@@ -29,7 +29,6 @@ backup/
 tasks/
 logs/
 handover/
-docs/
 portfolio/
 VIRTURA-Newsroom/
 *.pyc

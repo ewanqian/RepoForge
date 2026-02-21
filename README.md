@@ -9,9 +9,16 @@
 
 &gt; 仓库锻造 - 简单高效的 GitHub 项目管理工具
 
-## ⚠️ 重要提示
+## 📌 重要声明
 
-**此仓库包含作者个人的配置和内容**，仅供参考学习使用。如果你想使用 RepoForge 管理你自己的项目，请按照下面的"快速开始"步骤进行配置，不要直接 fork 后使用作者的个人配置。
+**RepoForge 现在是一个展示用的开源项目！**
+
+所有实际的个人配置、任务管理和自动化操作都在私有仓库 **Forge** 中进行。
+
+- 📖 想了解项目故事？请看 [docs/PROJECT_STORY.md](docs/PROJECT_STORY.md)
+- 🤖 是 AI Agent？请看 [docs/AGENT_INSTRUCTIONS.md](docs/AGENT_INSTRUCTIONS.md)
+
+---
 
 ## 快速开始
 
@@ -58,6 +65,9 @@ RepoForge/
 │   ├── auto_manage_repos.py # 仓库自动管理主脚本
 │   ├── scan_ecosystem.py    # 生态系统扫描脚本（示例）
 │   └── deep_scan.py         # 深度扫描脚本（示例）
+├── docs/                    # 文档
+│   ├── PROJECT_STORY.md     # 项目故事：来源、灵感、后日谈
+│   └── AGENT_INSTRUCTIONS.md # 给 AI Agent 的操作指南
 ├── README.md
 ├── LICENSE
 └── .gitignore
