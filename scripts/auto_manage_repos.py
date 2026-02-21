@@ -47,7 +47,8 @@ def init_github(secrets):
     return Github(secrets["github_token"])
 # 备份现有仓库
 def backup_repos(config, secrets, preview=False):
-    backup_dir = f"../backup/{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    backup_dir = os.path.join(script_dir, f"../backup/{datetime.now().strftime('%Y%m%d_%H%M%S')}")
     if not preview:
         os.makedirs(backup_dir, exist_ok=True)
     print(f"=== 备份环节（备份到：{backup_dir}）===")

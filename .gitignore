@@ -24,15 +24,20 @@ config/secrets.yaml
 *.secrets.yaml
 ~/.repoforge/
 
-# Personal content - 个人内容，不要提交
+# Personal content - 所有个人内容都在 Forge 私有仓库中
 backup/
 tasks/
-logs/
 handover/
+logs/
 portfolio/
 VIRTURA-Newsroom/
-*.pyc
-__pycache__/
+Documents/
+src/
+plugins/
+templates/
+.trae/
+copy_articles.py
+extract_articles.py
 
 # Build
 dist/
