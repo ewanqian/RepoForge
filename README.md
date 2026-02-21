@@ -9,14 +9,38 @@
 
 &gt; 仓库锻造 - 简单高效的 GitHub 项目管理工具
 
-## 📌 重要声明
+## � 重要更新
 
-**RepoForge 现在是一个展示用的开源项目！**
+从现在开始，**RepoForge** 和 **Forge** 是两个分开的仓库，分工明确：
 
-所有实际的个人配置、任务管理和自动化操作都在私有仓库 **Forge** 中进行。
+---
+
+## 🏗️ 仓库分工
+
+| 仓库 | 可见性 | 位置 | 用途 |
+|------|--------|------|------|
+| **RepoForge** | 公开 | GitHub: ewanqian/RepoForge | 仅用于展示 - 包含开源代码、示例配置、文档 |
+| **Forge** | 私有 | GitHub: ewanqian/Forge | 实际使用 - 包含个人配置、任务、敏感信息 |
+
+---
+
+## 📂 你应该操作哪个仓库？
+
+### 如果你要：
+- ✅ **修改开源代码** → 用 **RepoForge**
+- ✅ **更新示例配置** → 用 **RepoForge**
+- ✅ **写文档** → 用 **RepoForge**
+- ✅ **管理 Ewan 的实际项目** → 用 **Forge**
+- ✅ **执行自动化任务** → 用 **Forge**
+- ✅ **访问个人配置** → 用 **Forge**
+
+---
+
+## 🤖 是 AI Agent？
+
+详细操作指南请看：[docs/AGENT_INSTRUCTIONS.md](docs/AGENT_INSTRUCTIONS.md)
 
 - 📖 想了解项目故事？请看 [docs/PROJECT_STORY.md](docs/PROJECT_STORY.md)
-- 🤖 是 AI Agent？请看 [docs/AGENT_INSTRUCTIONS.md](docs/AGENT_INSTRUCTIONS.md)
 
 ---
 
