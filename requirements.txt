@@ -1,0 +1,5 @@
+
+# RepoForge 依赖包
+PyGithub&gt;=2.0.0
+PyYAML&gt;=6.0
+

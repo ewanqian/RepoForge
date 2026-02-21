@@ -1,0 +1,37 @@
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Secrets - 敏感配置文件，永远不要提交到 Git
+secrets.yaml
+config/secrets.yaml
+*.secrets.yaml
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+# logs/  - 不忽略，用于协作日志
+
+# Temporary files
+*.tmp
+*.temp
