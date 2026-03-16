@@ -23,7 +23,7 @@ RepoForge 的想法来自于一个创意从业者的痛点：
 
 ### 问题场景
 作为一名现场演出与沉浸视觉制作人，我同时维护着 20+ 个 GitHub 仓库：
-- 技术中台项目（SceneForge、LiveForge、EHNA...）
+- 工具与工作流项目（SceneForge、LiveForge、EHNA...）
 - 艺术实践项目（少媒体艺术、混沌媒体艺术...）
 - 趣味项目（MAGI系统、众生之门...）
 - 个人作品集...
