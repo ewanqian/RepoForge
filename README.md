@@ -1,7 +1,7 @@
 <!-- VIRTURA定位开始 自动生成请勿手动修改 -->
 # 仓库锻造 自动化运维工具 RepoForge
 &gt; 生态角色：公开治理工具壳
-&gt; 核心定位：面向创意从业者的GitHub全项目自动化管理开源工具，为多项目管理、标准化迭代、自动化运维提供完整的解决方案
+&gt; 核心定位：面向创意从业者的 GitHub 多仓库治理与自动化开源工具，用于多项目管理、标准化迭代与自动化运维
 &gt; 官方文档：https://ewanqian.github.io/RepoForge
 <!-- VIRTURA定位结束 -->
 
@@ -62,7 +62,7 @@ RepoForge/
 │   └── secrets.example.yaml  # Secrets 配置示例（使用请复制为 secrets.yaml）
 ├── scripts/                 # 脚本
 │   ├── auto_manage_repos.py # 仓库自动管理主脚本
-│   ├── scan_ecosystem.py    # 生态系统扫描脚本（示例）
+│   ├── scan_ecosystem.py    # 多仓库扫描脚本（示例）
 │   └── deep_scan.py         # 深度扫描脚本（示例）
 ├── docs/                    # 文档
 │   └── PROJECT_STORY.md     # 项目故事：来源、灵感、后日谈
