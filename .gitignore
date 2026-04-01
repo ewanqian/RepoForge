@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Secrets - 敏感配置文件，永远不要提交到 Git
+secrets.yaml
+config/secrets.yaml
+*.secrets.yaml
+~/.repoforge/
+
+# Personal content - 所有个人内容都在 Forge 私有仓库中
+backup/
+tasks/
+handover/
+logs/
+portfolio/
+VIRTURA-Newsroom/
+Documents/
+src/
+plugins/
+templates/
+.trae/
+copy_articles.py
+extract_articles.py
+
+# Build
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+
+# User-specific project config
+config/projects.yaml
